@@ -9,18 +9,18 @@ public class TriggerReactor : MonoBehaviour
     public UnityEvent m_OnTriggerStay;
     public UnityEvent m_OnTriggerExit;
 
-    public void OnCollisionEnter(Collision collision)
+    public void OnTriggerEnter(Collider other)
     {
         m_OnTriggerEnter.Invoke();
  
     }
 
-    public void OnCollisionStay(Collision collision)
+    public void OnTriggerStay(Collider other)
     {
         m_OnTriggerStay.Invoke();
     }
 
-    public void OnCollisionExit(Collision collision)
+    public void OnTriggerExit(Collider other)
     {
         m_OnTriggerExit.Invoke();
     }
