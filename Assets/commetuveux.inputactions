@@ -236,7 +236,7 @@
                 {
                     "name": "",
                     "id": "b0cb7bcd-2f2d-4706-b59d-f9391c334dda",
-                    "path": "<Gamepad>/leftStick/left",
+                    "path": "<Gamepad>/leftStickPress",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
